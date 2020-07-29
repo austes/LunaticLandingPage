@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'OpenSans';
+    /*url('/src/fonts/OpenSans-Regular.ttf')  format('truetype'), !* Safari, Android, iOS *!*/
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+header {
+/*    background-image: url("../img/header-bg-2.jpg");*/
+    color: white;
+    background-image: url("../img/header-bg-2.jpg");
+}
+
+.top {
+/*border: 1px black solid;*/
+    overflow: auto;
+    padding-top: 20px;
+}
+
+.container {
+    max-width: 1024px;
+    margin: auto;
+    overflow: auto;
+}
+
+.top-left {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation {
+    float: left;
+    margin-top: -10px;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.top-right {
+    float: right;
+}
+
+.top-right button {
+    font-size: 14px;
+    border-radius: 30px;
+    padding: 15px 30px;
+    border: 0px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: normal;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 50px;
+}
+.content-left {
+    margin: 60px;
+}
+
+.buttons button {
+    font-size: 22px;
+    border-radius: 30px;
+    padding: 15px 30px;
+    border: 0px;
+    background-color: #003366;
+    color: white;
+    font-weight: normal;
+}
+
+.content-right img {
+    max-width: 300px;
+    grid-area: 2 / 1 ;
+}
+
+.services h2 {
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.services-sequences {
+    float: left;
+    width: 32%;
+}
+
+.statistics {
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    float: left;
+    /*border: 1px solid #BFBFBF;*/
+    box-shadow: 0px 0px 30px 0px #aaaaaa;
+    border-radius: 6px;
+    margin: 30px 20px;
+    padding-top: 20px;
+}
+
+.statistics span {
+    color: #f9748e;
+    font-weight: bold;
+}
+
+.p2 {
+    float: left;
+    width: 49%;
+}
+
+.p1 {
+    width: 100%;
+}
+
+footer{
+    background-color: lightgray;
+}
+
+.footer {
+
+    overflow: auto;
+
+}
+
+.caption {
+    float: left;
+    padding: 30px;
+
+}
+
+
+
+.lunatic-block img {
+    width: 20%;
+}
+.lunatic-block{
+    float: left;
+    width: 20%;
+}
+.about-block{
+    width: 15%;
+}
+.contact-block{
+    width: 20%;
+}
+.newletter-block{
+    width: 20%;
+}
+
+.contact-icons {
+    position: relative;
+    /* Adjust these values accordingly */
+    top: 5px;
+    left: 5px;
+}
+
+.input {
+    padding: 7px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 50px;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 7px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 50px;
+}
